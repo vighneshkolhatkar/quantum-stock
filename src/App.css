@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+  background-color: rgb(223, 178, 87);
+  background-image: url('https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/css-background-image-linear-gradient.png?w=1048&ssl=1');
+  background-size: "cover";
+  height: 100vh;
+  margin-top: 0px;
+  background-repeat:no-repeat;
+}
+.container{
+  background-color:rgb(255, 255, 255);
+  border-radius: 40px;
+  align-items:center;
+  height: 50%;
+  width: 400px;
+}
+.Heading{
+  text-align: center;
+  background-color: rgb(244, 181, 156);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 4.5rem;
+}
+
+.AddForm {
+  text-align: center;
+  float:left;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: content-box;
+  background-color: rgb(244, 181, 156);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 1rem;
+  width: 30rem;
+  height: 32rem;
+}
+
+.ReadForm {
+  text-align: center;
+  float:left;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: content-box;
+  background-color: rgb(244, 181, 156);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 1rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+.UpdateForm{
+  text-align: center;
+  float:left;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: content-box;
+  background-color: rgb(244, 181, 156);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 1rem;
+  width: 20rem;
+  height: 30rem;
+}
+
+.DeleteForm{
+  text-align: center;
+  float:left;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: content-box;
+  background-color: rgb(244, 181, 156);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 1rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+.VizForm{
+  text-align: center;
+  float:left;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: content-box;
+  background-color: rgb(244, 181, 156);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 1rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+.VizChart{
+  text-align: center;
+  float:left;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: content-box;
+  background-color: rgb(239, 231, 227);
+  color: rgb(36, 11, 42);
+  margin: 1rem auto;
+  padding: 5px 10px;
+  font-size: 1rem;
+  width: 45rem;
+  height: 35rem;
+}
+
+
+
+.brand{
+  background-color: #9d2561
+}
+
+.Button{
+  display: inline-block;
+  /* float:left; */
+  background-color: rgb(36, 11, 42);
+  color: rgb(244, 181, 156);
+  font-size: 15px;
+  padding: 10px 40px;
+  border: 2px solid #131f44;
+  border-radius: 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.Button:hover{
+  animation: pulsate 1s
+  ease-in-out;
+}
+.Button:disabled {
+  color: rgb(218, 209, 184);
+  border: 3px solid #97a5cd;
+  background-color: rgb(145, 164, 219);
+  animation: pulsate 0s
+  ease-in-out;
+}
+
+@keyframes pulsate{
+  0%{
+    box-shadow:
+    0 0 25px #5ddcff,
+    0 0 50px #4e00c2;
+  }
+}
+
+* {
+  margin: auto;
+}
+body {
+  margin: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
