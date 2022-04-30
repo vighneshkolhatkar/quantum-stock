@@ -16,7 +16,10 @@ import { getFirestore } from "@firebase/firestore";
     appId: "1:678493814629:web:c4fac7de88d2c2a0e02b8c",
     measurementId: "G-E3Y1FBRSNM"
   };
-  
+
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 export const db = getFirestore(app);
+
+//OAuth client ID
+export const clientID = '678493814629-euu59r1fo5934j94mcts96qqtq6fm2tj.apps.googleusercontent.com';

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState,useEffect,useRef } from "react";
 import {db} from './firebase-config';
+import {clientID} from './firebase-config';
 import {collection, getDocs, addDoc,updateDoc, deleteDoc, query, where, doc, limit} from "firebase/firestore";
 import {TextField} from "@mui/material"
 import Table from '@mui/material/Table';
@@ -19,8 +20,6 @@ import {GoogleLogin, GoogleLogout} from 'react-google-login';
  
 
 function App() {
-
-  const clientID = '678493814629-euu59r1fo5934j94mcts96qqtq6fm2tj.apps.googleusercontent.com';
 
   const [newDate, setNewDate] = useState("")
   const [newOpen, setNewOpen] = useState(0)
